@@ -1,0 +1,26 @@
+{
+	"description": "REST Server for Simpeg Application",
+	"name": "bantenprov/simpeg-api",
+	"type": "library",
+	"homepage": "https://github.com/bantenprov/simpeg-api",
+	"authors": [
+		{
+			"name": "bantenprov",
+			"role": "beveloper.bantenprov@gmail.com"
+		}
+	],
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/bantenprov/simpeg-api"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"codeigniter/framework": "^3.0.4"
+	},
+	"autoload": {
+		"classmap": [
+			"application/libraries/Format.php",
+			"application/libraries/REST_Controller.php"
+		]
+	}
+}
